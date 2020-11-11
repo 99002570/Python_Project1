@@ -1,7 +1,7 @@
 import unittest
 from donor import *
 
-a=blooddb("akas","asSSCd","asf","ash","ght")
+a=blooddb("akas","geethu","ahg","ash","ght")
 a.read_data(thelist)
 
 class TestDonor(unittest.TestCase):
