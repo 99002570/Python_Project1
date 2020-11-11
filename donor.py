@@ -15,12 +15,12 @@ class blooddb(donor):
         for lines in thelist:
             alpha, beta, ceta, deta, eta, feta = lines
             if beta == phone:
-                print("Record Found:\n")
+                print("Record is Found:\n")
                 print(lines)
                 flag = 1
                 return "Found"
         if flag != 1:
-            print("Record not found.")
+            print("Record is not found.")
             return "Not Found"
     def read_data(self, thelist):
         file = open('Blooddata.csv', mode = 'r')
